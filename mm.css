@@ -1,0 +1,90 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    font-size: 20px;
+    background-color: rgb(203, 228, 236);
+}
+header{
+    height:100vh ;
+    color:white;
+    background-color: rgb(67, 195, 195);
+    border: 2.5px solid rgb(11, 1, 5); 
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+header h1{
+    margin: 0;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.button:hover{
+    background-color: rgb(41, 253, 101);
+    color: white;
+}
+section{
+    height: 100vh;
+    border: 2.5px solid rgb(12, 1, 6);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.submit{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color:white;
+}
+.submit:hover{
+    background-color: rgb(41, 253, 101);
+    color: white;
+}
+input{
+    border-radius: 5px;
+    border:1.5px solid rgb(96, 87, 150);
+    
+
+}
+footer{
+    background-color: rgb(110, 107, 107);
+    height:50px;
+    color: beige;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    background-color: blue;
+    color: antiquewhite;
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+
+}
+.fixed_button{
+    position: fixed;
+    top: 10px;
+    right:10px;
+    background-color: blue;
+    color: antiquewhite;
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: black;
+
+}
