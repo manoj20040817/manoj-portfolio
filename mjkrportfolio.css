@@ -35,12 +35,14 @@ header h1{
     border: none;
     border-radius: 10px;
     margin: 10px;
+    transition: all 1s linear 0.5s;
 
 
 }
 .button:hover{
     background-color: rgb(41, 253, 101);
     color: white;
+    transform: translateY(10px);
 }
 section{
     height: 100vh;
